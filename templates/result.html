@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<h2>Info</h2>
+
+<div class="result" align="center">
+    {% if result %}   
+        {% for variable, value in original_input.items() %}
+            <b>{{ variable }}</b> : {{ value }}12345            
+        {% endfor %}  
+        <br> image uploaded
+          <h1> {{result}}</h1>
+
+    {% endif %}
+</div>
+
+
+</body>
+</html>

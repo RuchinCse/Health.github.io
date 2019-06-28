@@ -1,0 +1,44 @@
+.container {
+  max-width: 750px;
+  padding: 15px;
+}
+
+body {
+ background-image: url("food-101.jpg");
+ background-color: #cccccc;
+}
+
+.heading { 
+  display: block;
+  font-size: 3em;	
+  font-weight: bold;
+  color: #33ff33;
+}
+
+.area { 
+  display: block;
+  font-size: 2em; 
+  font-weight: bold;
+  color: #0066ff;
+  align-items: center;
+}
+
+button {
+    background-color: #008CBA;
+    margin: auto;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+  	font-size: 16px
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
